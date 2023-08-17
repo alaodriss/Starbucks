@@ -66,3 +66,18 @@ button{
     padding: 5px 10px;
     border: 1px solid;
 }
+.bar {
+    background-color: #1e3932;
+    color: white;
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+}
+.bar>p{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
