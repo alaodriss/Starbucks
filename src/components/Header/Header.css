@@ -1,6 +1,7 @@
 .logo{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
 .header-content{
     display: flex;
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 ul {
@@ -25,18 +27,27 @@ li > a{
     font-size: 18px;
     font-weight: 800;
 }
+li > a:hover{
+    padding: 0 20px;
+    color: #008248;
+    font-size: 18px;
+    font-weight: 800;
+}
 
 button{
     margin: 0 20px;
     font-family: monospace;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .location{
     border: none;
     background: none;
     position: relative;
+}
+.span{
+    padding: 0 11px;
 }
 .location>img{
     position: absolute;
@@ -71,13 +82,12 @@ button{
     color: white;
     height: 50px;
     position: relative;
-    bottom: 20px;
 }
 .bar>p{
     font-family: monospace;
     font-size: 18px;
     font-weight: 600;
     position: absolute;
-    left: 7%;
-    top: 20%;
+    left: 9%;
+    top: 24%;
 }
