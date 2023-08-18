@@ -1,0 +1,40 @@
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.slider{
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 26%;
+    color: white;
+    left: 10%;
+    text-shadow: 1px 2px 3px 
+rgba(0,0,0, 0.5);
+  
+}
+.slider-content>h1{
+    font-size: 59px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.slider-text-1,.slider-text-2{
+    margin: 4px 0;
+    font-weight: 600;
+    font-size: 18px;
+    text-shadow: 1px 2px 3px 
+    rgba(0,0,0, 0.5);
+}
+
+.btn-join{
+    background:  #008248;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 28px;
+    margin: 15px 0;
+    font-size: 19px;
+}

@@ -29,8 +29,8 @@ const Header = () => {
       <li>
         <Link
           to='/rewards'
-          className={activeLink === '/rewards' ? 'active' : ''}
-          onClick={() => setActiveLink('/rewards')}
+          className={activeLink === '/rewads' ? 'active' : ''}
+          onClick={() => setActiveLink('/rewads')}
         >
           Rewards
         </Link>
@@ -47,7 +47,7 @@ const Header = () => {
     </ul>
       </div>
             <div className='header-infos'>
-                <button className="location"><span><i class="fa-solid fa-location-dot" ></i></span>Find a store</button>
+                <button className="location"><span className='icon-location'><i class="fa-solid fa-location-dot" ></i></span>Find a store</button>
                 <button className="sigin">Sigin in</button>
                 <button className="join">Join now</button>
             </div>
