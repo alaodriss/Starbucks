@@ -7,7 +7,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 30px;
+    margin: 30px 40px;
 }
 .header-menu {
     display: flex;
@@ -91,3 +91,24 @@ button{
     left: 9%;
     top: 24%;
 }
+
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bottom-navigation-bar a {
+   position: relative;
+
+  }
+  
+
+  
+  .bottom-navigation-bar a.active {
+    border-bottom: 18px solid 
+    #008248;
+    padding-bottom:39px ;
+  }
