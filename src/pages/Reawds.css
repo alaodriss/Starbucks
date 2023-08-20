@@ -5,14 +5,20 @@ img {
 }
 .slider{
     position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #d4e9e2;
+}
+.backgournd>img{
+    height: 600px;
+    object-fit: cover;
 }
 .slider-content{
     position: absolute;
-    top: 26%;
-    color: white;
-    left: 10%;
-    text-shadow: 1px 2px 3px 
-rgba(0,0,0, 0.5);
+    left: 4%;
+    top: 30%;
+
   
 }
 .slider-content>h1{
@@ -25,8 +31,7 @@ rgba(0,0,0, 0.5);
     margin: 4px 0;
     font-weight: 600;
     font-size: 18px;
-    text-shadow: 1px 2px 3px 
-    rgba(0,0,0, 0.5);
+
 }
 
 .btn-join{

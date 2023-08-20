@@ -18,7 +18,6 @@ const Header = () => {
             <ul className='bottom-navigation-bar'>
       <li>
         <Link
-          exact
           to="/"
           className={activeLink === '/' ? 'active' : ''}
           onClick={() => setActiveLink('/')}
@@ -28,6 +27,7 @@ const Header = () => {
       </li>
       <li>
         <Link
+             exact
           to='/rewards'
           className={activeLink === '/rewads' ? 'active' : ''}
           onClick={() => setActiveLink('/rewads')}
