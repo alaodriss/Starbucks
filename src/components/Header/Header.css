@@ -16,6 +16,10 @@
     gap: 20px;
 }
 
+.icon-location{
+    margin: 10px;
+}
+
 ul {
     display: flex;
     justify-content:space-between;
@@ -104,8 +108,6 @@ button{
    position: relative;
 
   }
-  
-
   
   .bottom-navigation-bar a.active {
     border-bottom: 18px solid 
