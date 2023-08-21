@@ -11,6 +11,10 @@ const TabPanel = () => {
 
   return (
         <div className="tab-panel">
+          <div className='tab-one'> 
+            <div className='tab-title'> 
+                <h2 className='title'>Get your favorites for free</h2>
+            </div>
         <div className="tab-options">
           {tabData.map((tab, index) => (
             <div
@@ -18,17 +22,24 @@ const TabPanel = () => {
               className={`tab-option ${activeTab === index ? 'active' : ''}`}
               onClick={() => handleTabClick(index)}
             >
-              Tab {tab.number}
+            {tab.number} <span className='star'>★</span>
             </div>
           ))}
         </div>
-        <div className="content">
+          </div>
+         
+        <div className="tab-content">
+          <div> 
           <img
             src={tabData[activeTab].img}
             alt="Image"
           />
-          <h2>{tabData[activeTab].title}</h2>
-          <p>{tabData[activeTab].text}</p>
+          </div>
+      
+          <div className='tab-content-infos'> 
+                <h2>{tabData[activeTab].title}</h2>
+                <p>{tabData[activeTab].text}</p>
+          </div>
         </div>
       </div>
   );

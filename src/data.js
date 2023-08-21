@@ -3,11 +3,11 @@ import icon2 from './assets/images/getting-started-2_2x.jpg'
 import icon3 from './assets/images/getting-started-3_2x.jpg'
 /** */
 
-import img1 from './assets/images/025.jpg'
-import img2 from './assets/images/100.jpg'
-import img3 from './assets/images/200.jpg'
-import img4 from './assets/images/300.jpg'
-import img5 from './assets/images/400.jpg'
+import img1 from './assets/images/025.png'
+import img2 from './assets/images/100.png'
+import img3 from './assets/images/200.png'
+import img4 from './assets/images/300.png'
+import img5 from './assets/images/400.png'
 
 export  const Gettings = [
     {
@@ -42,14 +42,14 @@ export const tabData = [
     {
         number:100,
         img: img2,
-        title: 'Customize your drink',
-        text:'Make your drink just right with an extra espresso shot, nondairy milk or a dash of your favorite syrup.'
+        title: 'Brewed hot or iced coffee or tea, bakery item, packaged snack and more',
+        text:'Treat yourself to an iced coffee, buttery croissant, bag of chips and more.'
       },
       {
         number:200,
         img: img3,
-        title: 'Customize your drink',
-        text:'Make your drink just right with an extra espresso shot, nondairy milk or a dash of your favorite syrup.'
+        title: 'Handcrafted drink (Cold Brew, lattes and more) or hot breakfast',
+        text:'Turn good mornings great with a delicious handcrafted drink of your choice, breakfast sandwich or oatmeal on us.'
       },
       {
         number:300,
@@ -60,7 +60,7 @@ export const tabData = [
       {
         number:400,
         img: img5,
-        title: 'Customize your drink',
-        text:'Make your drink just right with an extra espresso shot, nondairy milk or a dash of your favorite syrup.'
+        title: 'Sandwich, protein box or at-home coffee',
+        text:'Enjoy a PM pick-me-up with a lunch sandwich, protein box or a bag of coffee—including Starbucks VIA Instant®.'
       },
   ];
