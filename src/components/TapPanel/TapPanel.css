@@ -28,6 +28,8 @@
     font-weight: 600;
     position: relative;
     padding: 30px 15px;
+    border-bottom: 3px solid transparent; /* Initial border style */
+    transition: border-bottom 0.3s ease; 
   }
   .active {
     border-bottom: 3px solid #008248;
@@ -67,7 +69,7 @@
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    margin-top: 35px;
+    padding: 25px 0
     }
 
   .tab-content-infos>h2 {

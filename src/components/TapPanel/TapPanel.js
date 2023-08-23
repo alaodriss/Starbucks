@@ -8,7 +8,6 @@ const TabPanel = () => {
     setActiveTab(tabIndex);
   };
 
-
   return (
         <div className="tab-panel">
           <div className='tab-one'> 
