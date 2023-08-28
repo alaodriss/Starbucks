@@ -9,6 +9,13 @@ import img3 from './assets/images/200.png'
 import img4 from './assets/images/300.png'
 import img5 from './assets/images/400.png'
 
+
+import $img1 from './assets/images/1-fun-freebies.jpg'
+import $img2 from './assets/images/2-order-and-pay-ahead.jpg'
+import $img3 from './assets/images/3-get-to-free-faster.jpg'
+import { Link } from 'react-router-dom'
+
+
 export  const Gettings = [
     {
         id:1,
@@ -64,3 +71,32 @@ export const tabData = [
         text:'Enjoy a PM pick-me-up with a lunch sandwich, protein box or a bag of coffee—including Starbucks VIA Instant®.'
       },
   ];
+
+
+
+
+
+  
+export const dataEndless = [
+  {
+    id:1,
+    img: $img1,
+    title: 'Fun freebies',
+    text:'Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.',
+    Link:"https://www.starbucks.com/"
+  },
+  {
+      id:2,
+      img: $img2,
+      title: 'Order & pay ahead',
+      text:'Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores.', 
+      Link:"https://www.starbucks.com/"
+    },
+    {
+      id:2,
+      img: $img3,
+      title: 'Get to free faster',
+      text:'Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.',
+      Link:"https://www.starbucks.com/"
+    },
+];

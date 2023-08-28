@@ -79,3 +79,20 @@ img {
 .content{
     padding: 30px;
 }
+
+
+/**/
+
+.endless-container{
+    text-align: center;
+    margin: 60px auto;
+}
+.endless-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.endless> img {
+    height: 112px;
+    width: 112px;
+}

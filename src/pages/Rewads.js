@@ -1,8 +1,10 @@
 import React from 'react'
 import back from '../assets/images/xl-hero.jpg'
 import {Gettings} from '../data'
+import {dataEndless} from '../data'
 import './Reawds.css'
 import TabPanel from '../components/TapPanel/TapPanel'
+import { Link } from 'react-router-dom'
 
 const Rewads = () => {
   return (
@@ -37,6 +39,26 @@ const Rewads = () => {
         </div>
 
         <TabPanel />
+
+        <div className='endless-container'>
+              <h2>Endless Extras</h2>
+              <p>Joining Starbucks® Rewards means unlocking access to exclusive benefits. <br/> Say hello to easy ordering, tasty Rewards and—yes, free coffee.</p>
+              <div className='endless-content' >
+            {dataEndless.map((item)=> {
+              const {id,img,title,text,Link}=item
+              return (
+                  <div className='endless' key={id}>
+                  <img src={img} alt={title} />
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                  <span> <a href={Link}>Voir plus</a></span>
+                  </div>
+              )
+              })
+            }
+          </div>
+        </div>
+
     </>
   )
 }
